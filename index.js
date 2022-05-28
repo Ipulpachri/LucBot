@@ -280,7 +280,7 @@ if (bugc === false) return
 if (mek.key.fromMe) return
 nums = mek.participant
 longkapnye = "\n".repeat(420)
-tekuss = `© luc bot APIs 2021${longkapnye}\`\`\`BUGGC TERDETEKSI\`\`\`\n@⁨${nums.split('@')[0]} akan dikick\n\n_Clear chat by mans_\n*Jangan maen bug tod*`
+tekuss = `© F botz APIs 2022${longkapnye}\`\`\`BUGGC TERDETEKSI\`\`\`\n@⁨${nums.split('@')[0]} akan dikick\n\n_Clear chat by mans_\n*Jangan maen bug tod*`
 client.groupRemove(mek.key.remoteJid, [nums]).catch((e) => { reply(`*ERR:* ${e}`) })
 client.sendMessage(mek.key.remoteJid, 'WAH BUG NIH', MessageType.text)
 client.sendMessage(mek.key.remoteJid, tekuss, MessageType.text, {contextInfo:{mentionedJid:[nums + "@s.whatsapp.net"]}})
@@ -411,22 +411,22 @@ const wib = moment().tz('Asia/Jakarta').format("HH:mm:ss")
 const wita = moment.tz('Asia/Makassar').format('HH:mm:ss')
 const wit = moment.tz('Asia/Jayapura').format('HH:mm:ss')
 if(wib < "23:59:00"){
-var hahh = '🌃 Selamat Malam'
+var hahh = '🌃 Selamat Malam kak'
 }
 if(wib < "19:00:00"){
-var hahh = '🌇 Selamat Petang'
+var hahh = '🌇 Selamat Petang kak'
 }
 if(wib < "18:00:00"){
-var hahh = '🌁️ Selamat Sore'
+var hahh = '🌁️ Selamat Sore kak'
 }
 if(wib < "15:00:00"){
-var hahh = '🌅 Selamat Siang'
+var hahh = '🌅 Selamat Siang kak'
 }
 if(wib < "11:00:00"){
-var hahh = '🌄 Selamat Pagi'
+var hahh = '🌄 Selamat Pagi kak'
 }
 if(wib < "05:00:00"){
-var hahh = '🌃 Selamat Malam'
+var hahh = '🌃 Selamat Malam kak'
 }
 
 //=================================================//
